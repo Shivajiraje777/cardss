@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Workbench", sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+
+}
+section{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    background-color: blue;
+    width: 25%;
+    overflow: hidden;
+}
+img{
+   width: 100%; 
+   height: 300px;
+   transition: 0.5s;
+}
+h3{
+    color: gold;
+    text-align:center;
+}
+button{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    border: none;
+    color: hotpink;
+}
+img:hover{
+    /* transform: scale(1.2); */
+    filter: blur(20px);
+}
+.item{
+    width:100% ;
+}
+.w{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    display: none;
+}
+.item:hover .w{
+    display: block;
+}
